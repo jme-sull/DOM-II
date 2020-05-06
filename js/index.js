@@ -49,9 +49,9 @@ body.addEventListener('keydown', (event) => {
 
 //Event 4 - Load
 
-//window.addEventListener('load', (event) => {
-    //gsap.to('.logo-heading', {duration: 4, rotation: 360});
-//});
+window.addEventListener('load', (event) => {
+    gsap.to('.logo-heading', {duration: 4, rotation: 360});
+});
 
 //Event 4a - Click 
 
